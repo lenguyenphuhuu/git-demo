@@ -1,0 +1,37 @@
+title Bootstrap Example
+meta(charset="utf-8")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js")
+script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js")
+
+.container 
+  h2 Bang thong ke sinh vien
+  table.table
+    thead
+        tr
+          th Ma sinh vien
+          th Ten sinh vien
+          th Lop
+          th Dien thoai
+          th Dia chi
+          th Cong viec
+          th Chuc nang
+    each n in datastd
+      tbody
+          tr
+            td= n.msv
+            td= n.name
+            td= n.class
+            td= n.phone
+            td= n.adress
+            td= n.work
+            td
+              a(href="http://localhost:8000/insert" class="btn btn-primary" ) Them
+              a(href="http://localhost:8000/insert" class="btn btn-success" ) Sua
+              a(href="http://localhost:8000/insert" class="btn btn-danger" ) Xoa
+              
+
+
+    

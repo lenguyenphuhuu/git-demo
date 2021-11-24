@@ -1,0 +1,7 @@
+[
+{"_id":{"$oid":"61566e5d7900fe2799b8b9ec"},"msv":"18it141","name":"Le Nguyen Phu Huu","class":"18it3","phone":974377532,"adress":"Quang Tri","work":"Thuc tap sinh tai cong ty NestSera","__v":0},
+{"_id":{"$oid":"61566e5d7900fe2799b8b9ed"},"msv":"18it154","name":"Nguyen Thanh Nhan","class":"18it3","phone":974345234,"adress":"Thua Thien Hue","work":"Thuc tap sinh tai cong ty Exon","__v":0},
+{"_id":{"$oid":"61566e5d7900fe2799b8b9ee"},"msv":"18it121","name":"Van Viet Hieu","class":"18it3","phone":974543234,"adress":"Nghe An","work":"Sinh Vien","__v":0},
+{"_id":{"$oid":"61566e5d7900fe2799b8b9ef"},"msv":"18it147","name":"Tran Trung Hieu","class":"18it2","phone":974453234,"adress":"Quang Tri","work":"Sap lay vo :))","__v":0},
+{"_id":{"$oid":"61566e5d7900fe2799b8b9f0"},"msv":"18it198","name":"Vo Duc Canh","class":"18it2","phone":9.744387238E+09,"adress":"Quang Binh","work":"Sinh Vien","__v":0}
+]

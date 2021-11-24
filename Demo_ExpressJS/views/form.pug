@@ -1,0 +1,31 @@
+html
+head
+    title Form - Freetuts.net
+    meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css", rel="stylesheet")
+body
+    div.container
+        .card(style = "margin-top: 5%;")
+            h3.card-header Them mot sinh vien vao danh sach
+            .card-body
+                form(action="/", method="post", enctype="multipart/form-data")
+                    .form-group
+                        label(for="msv") Ma sinh vien
+                        input.form-control(type="text", name="msv", placeholder="18itxxx", required)
+                    .form-group
+                        label(for="name") Ten
+                        input.form-control(type="text", name="name", placeholder="Ho Nhat Trung", required)
+                    .form-group
+                        label(for="class") Lop
+                        input.form-control(type="text", name="class", placeholder="18it3", required)    
+                    .form-group
+                        label(for="phone") Dien thoai
+                        input.form-control(type="text", name="phone", placeholder="0984736231", required)
+                    .form-group
+                        label(for="adress") Dia chi
+                        input.form-control(type="text", name="adress", placeholder="Quang Tri", required)
+                    .form-group
+                        label(for="work") Cong viec
+                        input.form-control(type="text", name="work", placeholder="Sinh vien", required)    
+                    button.btn.btn-block.btn-success(type="submit") Gửi
+                    
